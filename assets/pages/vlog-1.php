@@ -29,9 +29,9 @@
         <!--Custom CSS-->
     </head>
     <body class="selectioncoler" data-spy="scroll" data-target=".navbar" data-offset="51">
-        <!--Top Navbar Blog-->
-        <div id="top-navbar-blog"></div>
-        <!--Top Navbar Blog-->
+        <!--Top Navbar-->
+        <div id="top-navbar"></div>
+        <!--Top Navbar-->
         <!--Vlog-->
         <div class="container">
             <br>
@@ -75,7 +75,7 @@
         <script src="/assets/js/script-1.js"></script>
         <script src="/assets/js/get-comments.js"></script>
         <script>
-            loadHTML("top-navbar-blog", "/assets/includes/top-navbar-blog.html");
+            loadHTML("top-navbar", "/assets/includes/top-navbar.html");
             loadHTML("bottom", "/assets/includes/bottom.html");
         </script>
         <!--JavaScript-->
