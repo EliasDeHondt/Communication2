@@ -34,6 +34,22 @@
                 background-attachment: fixed;
                 background-position: center;
             }
+            .img-fluid {
+                margin-top: 10px;
+            }
+            button {
+                background-color: #000000;
+                padding: 10px 20px;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+            .left {
+                text-align: center;
+            }
         </style>
         <!--Custom CSS-->
     </head>
@@ -41,18 +57,13 @@
         <!--Top Navbar-->
         <div id="top-navbar"></div>
         <!--Top Navbar-->
-        <!--Blogs-->
-        <div class="container-fluid pt-5" id="blogs">
-            <div class="container">
-                <img src="/assets/media/images/statistieken.png" class="img-fluid" alt="Statistieken">
-            </div>
+        <!--Statistics-->
+        <div class="container">
+            <img class="img-fluid" id="myImage" src="/assets/media/images/statistics1.png" alt="Statistics 1">
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!--Vlogs-->
+        <div class="left">
+            <button onclick="nextImage()">Next statistic</button>
+        <!--Statistics-->
         <!--Bottom-->
         <div id="bottom"></div>
         <!--Bottom-->
@@ -62,17 +73,25 @@
         <!--JavaScript-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="/lib/typed/typed.min.js"></script>
-        <script src="/lib/easing/easing.min.js"></script>
-        <script src="/lib/waypoints/waypoints.min.js"></script>
-        <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="/lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="/lib/lightbox/js/lightbox.min.js"></script>
         <script src="/assets/js/main.js"></script>
         <script src="/assets/js/script-1.js"></script>
         <script>
             loadHTML("top-navbar", "/assets/includes/top-navbar.html");
             loadHTML("bottom", "/assets/includes/bottom.html");
+        </script>
+        <script>
+            var Pictures = [
+            "/assets/media/images/statistics1.png",
+            "/assets/media/images/statistics2.png"
+            ];
+
+            var currentIndex = 0;
+            var imageElement = document.getElementById("myImage");
+
+            function nextImage() {
+                currentIndex = (currentIndex + 1) % Pictures.length;
+                imageElement.src = Pictures[currentIndex];
+            }
         </script>
         <!--JavaScript-->
     </body>
