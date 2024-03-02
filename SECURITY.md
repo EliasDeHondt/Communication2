@@ -1,20 +1,26 @@
-# Security Policy
-
-## Supported Versions
-
-This document outlines the versions of our project that are currently supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| 1.1.x   | :white_check_mark: |
-| 1.2.x   | :x:                |
-| < 1.0   | :x:                |
+![logo](https://eliasdh.com/assets/media/images/logo-github.png)
+# 💙🤍SECURITY🤍💙
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within our project, please report it by contacting our security team at [security@bierbrigade.com](mailto:security@bierbrigade.com).
+Your assistance in maintaining the security of our project is highly appreciated. If you uncover any security vulnerabilities within our system, we urge you to immediately report them to our dedicated security team at [security@eliasdh.com](mailto:security@eliasdh.com).
 
-We kindly request that you refrain from publicly disclosing the issue until we have addressed it. We strive to acknowledge and respond to all reported vulnerabilities within 48 hours. After receiving a report, we will investigate the matter and communicate the next steps, including details about a fix or potential mitigations.
+We kindly request that you follow these guidelines:
 
-Thank you for helping keep our project secure.
+### Reporting Process:
+
+1. **Reporting**: Notify us promptly about the discovered vulnerability.
+2. **Confidentiality**: Refrain from publicly disclosing the issue until we've had an opportunity to address it.
+3. **Collaboration**: Allow us time to investigate and provide necessary updates regarding the resolution process.
+4. **Acknowledgment**: We strive to acknowledge and respond to all reported vulnerabilities within 24 hours of receipt.
+5. **Resolution**: After receiving your report, we will diligently investigate and communicate the necessary steps, including details about a fix or potential mitigations.
+6. **Appreciation**: We sincerely appreciate your effort in helping to maintain the security of our project.
+
+### Our Commitment:
+
+- **Response Time**: We aim to acknowledge your report within 24 hours and keep you informed throughout the resolution process.
+- **Investigation**: Our team will thoroughly investigate the reported vulnerabilities and take appropriate action promptly.
+- **Communication**: We will provide updates on the progress and inform you about any necessary steps or fixes.
+- **Acknowledgment**: Your contribution to our project's security is invaluable, and we will credit your efforts unless you prefer to remain anonymous.
+
+Thank you for your dedication to ensuring the security of our project. Your cooperation is essential in helping us maintain a safe environment for all users and contributors.
