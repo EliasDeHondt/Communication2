@@ -14,9 +14,7 @@ function loadHTML(myDivId, url) {
                document.getElementById(myDivId).innerHTML = xmlhttp.responseText;
                let allScripts = document.getElementById(myDivId).getElementsByTagName('script-1');
                for (const element of allScripts) eval(element.innerHTML)
-               
            }
-           else alert('Error');
         }
     }
     xmlhttp.open("GET", url, true);
