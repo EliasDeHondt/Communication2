@@ -6,7 +6,7 @@
 
 function updateComments() {
     const commentsList = document.getElementById("comments-list");
-    fetch("/assets/php/comments.php") // Hiermee haal je de opmerkingen op van de server
+    fetch("https://eliasdehondt.github.io/Communication2/assets/php/comments.php") // Hiermee haal je de opmerkingen op van de server
         .then(response => response.text())
         .then(data => {
             commentsList.innerHTML = data; // Vervang de inhoud van het opmerkingenlijstelement
